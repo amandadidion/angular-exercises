@@ -1,0 +1,33 @@
+<div>
+    <table ng-repeat="family in $ctrl.familyMember">
+        <tr>
+            <th>Name</th>
+            <th>Relation</th>
+            <th>Age</th>
+            </tr>
+        <tr>
+            <td>{{family.name}}</td>
+            <td>{{family.relation}}</td>
+            <td>{{family.age}}</td>
+        </tr>
+    </table>
+    
+</div>
+
+<!-- {{$ctrl.myName}}
+<ul>
+    <li ng-repeat="member in $ctrl.band">{{member.artist}} is {{member.genre}}</li>
+</ul>
+<h1>My first angular component</h1> -->
+<!-- <input type="text" placeholder="enter something" ng-model="$ctrl.me.name"/>
+<h1>{{$ctrl.me}}</h1>
+<button ng-click="$ctrl.changeName()">Submit</button> -->
+
+<!-- <div>
+    <h1 ng-repeat="student in $ctrl.students" 
+        ng-class="{present: student.present}" 
+        ng-click="$ctrl.togglePresent(student)">
+        {{student.name}}</h1>
+    <input type="text" ng-model="$ctrl.newName"/>
+    <button ng-click="$ctrl.addName()">Submit</button>
+</div> -->
